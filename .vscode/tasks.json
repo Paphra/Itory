@@ -1,0 +1,26 @@
+{
+    "version": "2.0.0",
+    "tasks": [{
+            "label": "Build and Run App",
+            "type": "shell",
+            "command": "javac -d itory/build/classes -cp itory/src -sourcepath itory/src itory/src/main/App.java;cd itory/build/classes;jar cvnfe ../../dist/itory.jar main.App *;java -jar ../../dist/itory.jar",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Create The Jar",
+            "type": "shell",
+            "command": "cd itory/build/classes;jar cnvfe ../../dist/itory.jar main.App *",
+            "problemMatcher": []
+        },
+        {
+            "label": "Run the application",
+            "type": "shell",
+            "command": "java -jar itory/dist/itory.jar",
+            "problemMatcher": []
+        }
+    ]
+}

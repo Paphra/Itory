@@ -1,0 +1,6 @@
+Manifest-Verson: 1.0
+Created-By: Epaphradito Lugayavu (Paphra Enterprises)
+Main-Class: main.App
+Name: main/
+Specification-Title: Itory Business Operator
+Specification-Version: 1.0

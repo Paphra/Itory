@@ -4,6 +4,8 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Menu;
 import javafx.scene.control.MenuBar;
 import javafx.scene.control.MenuItem;
+import javafx.scene.control.Tab;
+import javafx.scene.control.TabPane;
 import javafx.scene.layout.BorderPane;
 
 public class Maker {
@@ -35,5 +37,15 @@ public class Maker {
     // button
     public Button btn(String text) {
         return new Button(text);
+    }
+
+    // TabbedPane
+    public TabPane tbp() {
+        return new TabPane();
+    }
+
+    // Tab
+    public Tab tb(String name) {
+        return new Tab(name);
     }
 }
